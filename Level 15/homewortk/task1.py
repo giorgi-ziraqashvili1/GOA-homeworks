@@ -56,9 +56,3 @@
 
 # elif name != my_name and age != my_age:
 #     print("Not Twins")
-
-
-
-
-
-
