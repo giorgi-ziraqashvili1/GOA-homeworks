@@ -12,9 +12,10 @@ for i in range(0,200):
 
 names=[]
 
-user_name=input("Enter your top 5 names: ")
+
 for i in range(5):
-    print(names.append(user_name))
+    names.append(input("Enter your fav name: "))
+    print(names)
 
 
 # 3)შექმენით სია 10 ელემენტით და გამოიტანეთ მხოლოდ კენტ ინდექსზე მდგომი ელემენტები.
@@ -46,6 +47,8 @@ print(Num1)
 List=[4,2,3,45,5,6,2,35,6,6,23,4,234,65,6,24]
 len(list)
 print(List)
+
+
 
 
 
