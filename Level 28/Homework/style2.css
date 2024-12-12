@@ -1,0 +1,21 @@
+body{
+    background-color: red;
+    text-align: center;
+}
+
+h1{
+    color:rgb(0, 245, 65)
+}
+
+b{
+    color:rgba(1, 175, 35, 0.849)
+}
+
+img{
+    width:300
+}
+
+ol{
+    border: 3px black solid;
+    color:blue
+}

@@ -1,0 +1,30 @@
+ol{
+    color:rgb(0, 217, 255);
+    border:1px blue dashed
+
+
+}
+
+img{
+    width: 300px;
+}
+
+body{
+    text-align:center;
+    background-color: rgb(171, 117, 216);
+
+}
+
+b{
+    color:mediumseagreen;
+    font-size: medium;
+    
+}
+
+h1{
+    color:dodgerblue
+}
+
+h2{
+    color:red
+}
