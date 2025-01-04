@@ -1,0 +1,23 @@
+#name{
+    color:blue;
+    background-color: cadetblue;
+    font-size: smaller;
+}
+
+.surname{
+    color:#115861;
+    background-color: rgb(49, 13, 57);
+    font-size: larger;
+}
+
+#color{
+    color:blue
+}
+
+#RGB{
+    color:rgb(244, 1, 216)
+}
+
+#HEX{
+    color:#9bb610
+}

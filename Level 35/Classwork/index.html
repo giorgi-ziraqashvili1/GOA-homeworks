@@ -1,0 +1,55 @@
+<!--   1) შექმენით საიტი რომელსაც უკანა ფონად ექნება შავი ფერი, 
+   იქნება 2 პარაგრაფი რომელსაც გაზრდით ზომაში შეუცვლით ტექსტის ფერს და უკა ფონს ასევე დაამატეთ
+    2 h2 რომელსაც გადატანთ ცენტრში, შეუცვლით ტექსტის ფერს და უკანა ფონს ასევე გაზარდეთ ზომაშიც, გამოიყენეთ 
+    internal css -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            background-color: black;
+        }
+        p{
+            font-size: x-large;
+            background-color: aquamarine;
+            color: brown;
+        }
+        h2{
+            text-align: center;
+            color:chocolate;
+            background-color: crimson;
+            font-size: xx-large;
+        }
+
+    </style>
+<body>
+    <h2>Name</h2>
+        <p>Giorgi</p>
+    <h2>Surname</h2>
+        <p>Zirakashvili</p>
+
+<!-- 2) საიტზე დაამატეთ სამი სახის ტექსტი თითოეულ
+  მათგანში თქვენი სიტყვებით ახსენით სამივე css 
+ ის წერის სტილი (internal, inline, external) 
+ და იმ ტექსტის გასასტილად გამოიყენეთ შესაბიმის 
+ css რომელზეც იმ ტექსტში გექნებათ საუბარი -->
+
+<style>
+#internal{
+    color:brown;
+    background-color: bisque;
+
+}
+</style>
+ <p id="internal"> Internal css გამოიყენება შიგნით html ფაილში style ატრიბუტში.</p>
+ <p style="color:blueviolet; background-color: chocolate;">inline css  გამოიყენება html  ფაილში რომელიც ჩაშენებულია თვითონ იმ ელემენთში რომლის გასტილვაც გვინდა.</p>
+ <p id="external">External css გამოიყენება css ფაილში რომელიც უკავშირდება html ფაილს  link  თეგით.</p>
+</body>
+</html>
+

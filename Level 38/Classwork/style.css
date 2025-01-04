@@ -1,0 +1,31 @@
+#parent{
+    background-color: rgb(210, 126, 0);
+    height: 500px;
+    width: 1000px;
+
+}
+
+#child{
+    width: 70%;
+    color:black
+}
+
+#grand_chlid{
+    width: 50%;
+    color:blue;
+    font-size: 50px;
+}
+
+#grand_childs_child{
+    font-size: 50%;
+}
+
+#parent2{
+    font-size: 500px;
+}
+#child2{
+    font-size: 25%;
+}
+#child3{
+    font-size: 50%
+}

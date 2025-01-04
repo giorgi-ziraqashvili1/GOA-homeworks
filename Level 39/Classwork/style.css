@@ -1,0 +1,60 @@
+#p-1{
+    color:rgb(246, 0, 0);
+    text-align: right;
+    text-decoration: underline rgb(122, 128, 0);
+
+}
+
+#p-2{
+    color:rgb(134, 89, 89);
+    text-align: center;
+    text-decoration: line-through yellow;
+}
+
+#p-3{
+    color:rgb(72, 13, 108);
+    text-align: center;
+    text-decoration: underline goldenrod;
+}
+
+#p-4{
+    color:rgb(33, 92, 15);
+    text-align: right;
+    text-decoration: line-through dotted rgb(1, 23, 70);
+}
+
+#p-5{
+    color:rgb(6, 157, 180);
+    text-align: left;
+    text-decoration: line-through greenyellow;
+}
+
+#p-6{
+    color:rgb(10, 84, 78);
+    text-align: left;
+    text-decoration: overline aqua;
+}
+
+#p-7{
+    color:green;
+    text-align: right;
+    text-decoration:overline green ;
+}
+
+#p-8{
+    color:gray;
+    text-align: center;
+    text-decoration: overline gray;
+
+}
+
+#p-9{
+    color:rgb(161, 165, 19);
+    text-align: right;
+    text-decoration: underline rgb(93, 1, 23);
+}
+
+body{
+    background-color: aliceblue;
+    
+}

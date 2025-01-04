@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+.buy{
+    color:blue;
+    background-color: cadetblue;
+    font-size: xx-large;
+
+}
+
+#visit{
+    color:aquamarine;
+    background-color: bisque;
+    font-size: x-large;
+}
+
+#register{
+    color:chocolate;
+    background-color: cornflowerblue;
+    font-size: medium;
+}

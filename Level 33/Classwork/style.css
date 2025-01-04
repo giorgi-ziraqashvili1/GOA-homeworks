@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+p{
+    background-color: darkblue;
+    color:blueviolet
+}
+
+.block{
+    text-align: center;
+    background-color: brown;
+    font-size: larger;
+
+}
+
+.inline{
+    text-align: center;
+    font-size: larger;
+    background-color: chocolate;
+}
