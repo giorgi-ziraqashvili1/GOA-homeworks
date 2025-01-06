@@ -1,0 +1,28 @@
+input{
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: green;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+button{
+    background-color: black;
+    color: red;
+}
+button:hover{
+    color:green
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction:column;
+    background-color: rgb(39, 28, 28);
+}
+
+
