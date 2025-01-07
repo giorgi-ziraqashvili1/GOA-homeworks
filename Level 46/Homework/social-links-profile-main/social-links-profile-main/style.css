@@ -1,0 +1,74 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter" ;
+}
+
+.main{
+    background-color:hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border-radius: 100px;
+    width: 70px;
+    padding: 25px;
+}
+
+h1{
+   color:white;
+   font-weight: 700;
+    
+}
+
+.location{
+    font-weight: 400 ;
+    color:hsl(75, 94%, 57%)
+}
+
+.p-2{
+    font-weight: 400;
+    color:hsl(0, 0%, 69%);
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+button{
+    background-color:hsl(0, 0%, 20%);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 110px;
+    font-weight:600 ;
+    
+    
+}
+
+button:hover{
+    background-color:hsl(75, 94%, 57%);
+}
+
+.G{
+    padding: 15px 140px;
+
+}
+.L{
+    padding: 15px 135px;
+}
+
+.T{
+    padding: 15px 140px;
+}
+
+.I{
+    padding: 15px 130px;
+}
+

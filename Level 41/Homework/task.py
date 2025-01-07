@@ -3,7 +3,7 @@
 def filter_list(l):
     final_list = []
     for i in l:
-        if isinstance(i, int):
+        if type(i) == int:
             final_list.append(i)
     return final_list
 # Jaden Casing Strings
