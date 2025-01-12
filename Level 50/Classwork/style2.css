@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/62/b8/92/62b8921486642e19163d9b5503b5784b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px bisque;
+}
+
+div{
+    background-color: #555;
+    border-radius: 10px;
+    padding: 10px;
+    color:bisque
+}

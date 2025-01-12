@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    background-image:url(./images/bg-desktop.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins";
+}
+
+.main{
+    display: flex;
+    position: relative;
+    left: 550px;
+    color:white;
+    text-align: left;
+    flex-direction: column;
+    align-items: start;
+    font-size:20px;
+    
+
+}
+
+h1{
+   font-weight: 600;
+   
+}
+
+p{
+    color:rgba(255, 255, 255, 0.757);
+    font-weight:400
+}
+
+button{
+    border: none;
+    border-radius:35px; 
+    padding:20px 90px ;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.475)
+
+}
+
+button:hover{
+    background-color:hsl(300, 69%, 71%) ;
+}
+
+img{
+    position: absolute;
+    right: 800px;
+    bottom: 120px;
+    width:800px ;
+
+}
