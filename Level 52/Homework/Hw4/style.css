@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color:cornflowerblue;
+
+}
+
+div:hover{
+    transform: rotate(180deg) scale(1.5);
+}

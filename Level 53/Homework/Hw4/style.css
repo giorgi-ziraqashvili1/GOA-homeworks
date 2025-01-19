@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    background-color: rgb(117, 65, 67);
+    font-size: xx-large;
+    border-radius: 10px;
+    padding: 2px 10px;
+    animation: color_changer 5s 0s infinite ;
+
+}
+
+@keyframes color_changer {
+   100% {
+     color:green
+
+   }
+       
+
+}

@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    animation: rotater 2s 0s infinite;
+
+}
+@keyframes rotater{
+    100%{
+        transform: rotate(360deg);
+    }
+}

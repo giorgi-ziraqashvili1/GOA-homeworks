@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    border-radius: 15px;
+    animation: scale 3s 0s infinite ;
+}
+
+@keyframes scale {
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(-2);
+    }
+}

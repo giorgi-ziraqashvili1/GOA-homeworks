@@ -1,0 +1,15 @@
+@keyframes colorChange {
+    0% {
+      background-color: red;
+    }
+    100% {
+      background-color: blue;
+    }
+  }
+  
+
+div {
+    width: 200px;
+    height: 200px;
+    animation: colorChange 2s forwards;
+}

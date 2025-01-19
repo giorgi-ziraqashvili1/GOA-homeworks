@@ -4,10 +4,10 @@ def number_of_duplicate_digits(ndigit):
     if ndigit == 1:
         return 0
     
-    total_numbers = 9 * (10 ** (ndigit - 1))
-    non_double_numbers = 9 * (9 ** (ndigit - 1))
+    total = 9 * (10 ** (ndigit - 1))
+    no_double = 9 * (9 ** (ndigit - 1))
     
-    return total_numbers - non_double_numbers
+    return total - no_double
 
 
 # Sum of Triangular Numbers
